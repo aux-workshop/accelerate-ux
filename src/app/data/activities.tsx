@@ -21,7 +21,7 @@ export const activities: Activity[] = [
         </p>
 
         <p>
-          Meetings are planned as 30-minute sessions featuring brief updates on
+          Meetings are planned as 1-hour sessions featuring brief updates on
           current work and upcoming workshop planning, followed by open
           discussion.
         </p>
@@ -30,6 +30,18 @@ export const activities: Activity[] = [
           Scheduling information, including a proposed recurring time and
           considerations for international time zones, along with the AUX
           website and virtual meeting details, were also shared.
+        </p>
+
+        <p>
+          Register for the recurring meeting series using the following link:{" "}
+          <a
+            href="https://stanford.zoom.us/meeting/register/ehBC6BHiRWqC7qSM8lp4SQ"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#1e88b6] underline break-words"
+          >
+            Zoom Event
+          </a>
         </p>
       </div>
     ),
@@ -44,9 +56,9 @@ export const activities: Activity[] = [
           The AUX workshop hosts would like to thank everyone who attended the
           2026 Accelerate UX Workshop! We had a great time meeting people and
           learning about the different approaches to UI/UX and software
-          development at everyone’s facility. We would ask if you have a moment
+          development at everyone's facility. We would ask if you have a moment
           to please respond to this quick survey about the workshop (want
-          something different at the next workshop? Here’s your chance to let us
+          something different at the next workshop? Here's your chance to let us
           know!)
         </p>
         <p>
@@ -69,7 +81,7 @@ export const activities: Activity[] = [
         <p>
           In late Feb 2026, staff from 11 different accelerator lab facilities
           gathered at the Advanced Light Source for a 3 day event, the
-          “Accelerate UX Workshop”. What could bring together so many different
+          "Accelerate UX Workshop". What could bring together so many different
           participants from across the US and abroad? The answer is simple: a
           chance to improve the user experience for operators, scientists,
           engineers, researchers, and all others who work at accelerator labs.

@@ -69,13 +69,22 @@ export default function About() {
       </section>
 
       {/* Info */}
-      <section className="pt-12 px-6 flex flex-col items-center">
-        <p className="text-lg text-gray-700 max-w-3xl">
+      <section className="py-16 px-6 flex flex-col items-center text-center gap-8">
+        <p className="text-lg text-gray-600 max-w-2xl leading-relaxed">
           This working group is a collaborative effort between INL, FNAL, LBNL, and
           SLAC, aimed at fostering knowledge sharing and improving operational
           efficiency. Launched in 2025, this initiative focuses on the importance of UI/UX
-          at accelerator facilities. 
+          at accelerator facilities.
         </p>
+        <a
+          href="mailto:auxworkshop@gmail.com"
+          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[#1e88b6] text-[#1e88b6] text-sm font-medium hover:bg-[#1e88b6] hover:text-white transition-colors"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+            <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          auxworkshop@gmail.com
+        </a>
       </section>
 
       {/* Team Profiles */}
